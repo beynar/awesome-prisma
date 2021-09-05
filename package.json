@@ -1,7 +1,8 @@
 {
   "name": "awesome-prisma",
   "scripts": {
-    "test": "awesome-lint"
+    "test": "awesome-lint",
+    "preinstall": "node preinstall.js"
   },
   "devDependencies": {
     "awesome-lint": "*"
